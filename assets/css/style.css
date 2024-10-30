@@ -1,0 +1,106 @@
+.notification_container {
+	width: 100%;
+}
+.notification {
+	line-height: auto;
+	cursor: pointer;
+	clear: both;
+	height: auto;
+	margin: 8px 0px 8px 0px;
+	padding: 10px 25px 10px 60px;
+	border-radius: 4px;
+}
+.notification strong {
+	margin-right: 5px;
+}
+.notification p {
+	font-size: 13px;
+	padding: 0px;
+	margin: 0px;
+}
+/* Default Theme */
+.warning {
+	background-image: url(../images/error.png);
+	background-position: 15px center;
+	background-repeat: no-repeat;
+	border: 1px solid #FFC237;
+	background-color: #FFEAA8;
+	color: #826200;
+}
+.success {
+	background-image: url(../images/accept.png);
+	background-position: 15px center;
+	background-repeat: no-repeat;
+	border: 1px solid #99C600;
+	background-color: #EFFFB9;
+	color: #3C5A01;
+}
+.failure {
+	background-image: url(../images/exclamation.png);
+	background-position: 15px center;
+	background-repeat: no-repeat;
+	border: 1px solid #EB5339;
+	background-color: #FCCAC2;
+	color: #AC260F;
+}
+.information {
+	background-image: url(../images/information.png);
+	background-position: 15px center;
+	background-repeat: no-repeat;
+	border: 1px solid #418ACC;
+	background-color: #D0E4F4;
+	color: #235685;
+}
+.lightbulb {
+	background-image: url(../images/lightbulb.png);
+	background-position: 15px center;
+	background-repeat: no-repeat;
+	border: 1px solid #D3A350;
+	background-color: #FEF0CB;
+	color: #835F21;
+}
+.messages {
+	background-image: url(../images/email.png);
+	background-position: 15px center;
+	background-repeat: no-repeat;
+	border: 1px solid #649fca;
+	background-color: #afdeff;
+	color: #235685;
+}
+/* Bootstrap Theme */
+.boot_warning {
+	padding: 10px 20px;	
+	color: #8a6d3b;
+	background-color: #fcf8e3;
+	border: 1px solid #faebcc;
+}
+.boot_success {
+	padding: 10px 20px;	
+	color: #468847;
+	background-color: #dff0d8;
+	border: 1px solid #d6e9c6;
+}
+.boot_failure {
+	padding: 10px 20px;	
+	color: #b94a48;
+	background-color: #f2dede;
+	border: 1px solid #eed3d7;
+}
+.boot_information {
+	padding: 10px 20px;	
+	color: #3a87ad;
+	background-color: #d9edf7;
+	border: 1px solid #bce8f1;
+}
+.boot_lightbulb {
+	padding: 10px 20px;	
+	color: #8a6d3b;
+	background-color: #FEF0CB;
+	border: 1px solid #f9e4ac;
+}
+.boot_messages {
+	padding: 10px 20px;	
+	color: #5e5e5e;
+	background-color: #eeeeee;
+	border: 1px solid #cccccc;
+}
